@@ -1,0 +1,233 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 17px;
+  overflow-x: hidden;
+  color: white;
+  font-family: 'Algerian', cursive;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/pi2.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0px;
+  clear: both;
+}
+
+.row {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 170px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+}
+
+.main-nav {
+  float: right;
+
+  margin-top: 10px;
+}
+
+.main-nav li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 40px;
+}
+
+.main-nav li a {
+  padding: 5px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 150%;
+  font-weight: 100;
+}
+
+.main-nav li a:hover {
+  border-bottom: 2px solid #bf55ec
+}
+
+.main-content-header {
+  width: 1180px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+h1 {
+  color: #fff;
+  font-size: 240%;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px;
+  font-weight: lighter;
+  text-decoration: none;
+
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  font-size: 20px;
+}
+
+.btn-full {
+  background-color: transparent;
+  color: #bf55ec;
+  margin-right: 15px;
+  border: 1px solid #bf55ec;
+}
+
+.btn-full:hover {
+  background-color: #fff;
+}
+
+
+
+.btn-half {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-half:hover {
+  background-color: #bf55ec;
+}
+
+.colorchange {
+  animation: colorchangeshubham 1s infinite;
+}
+
+.sir {
+
+  padding-left: 15%;
+
+  width: auto;
+}
+
+@keyframes colorchangeshubham {
+  0% {
+    color: red;
+  }
+
+  25% {
+    color: #bf55ec;
+  }
+
+  50% {
+    color: white;
+  }
+
+  100% {
+    color: #bf55ec;
+  }
+}
+
+.mobile-icon {
+  display: none;
+}
+
+/*//////Responsive/////*/
+@media (min-width:998px) and (max-width:1180px) {
+  .main-content {
+    width: 100%;
+    padding: 0 2%;
+  }
+}
+
+@media (min-width:768px) and (max-width:997px) {
+  h4 {
+    font-size: 80%;
+  }
+
+  .main {
+    display: none;
+  }
+
+  .mobile-icon {
+    display: inline-block;
+    color: #fff;
+
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+
+  .main {
+    float: left;
+  }
+
+  .main li {
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width:575px) and (max-width:767px) {
+  .butn-full {
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 87%;
+  }
+}
+
+@media (min-width:480px) and (max-width:574px) {
+  .butn-full {
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 70%;
+  }
+}
+
+@media (max-width:479px) {
+  .butn-full {
+    margin-bottom: 5px;
+  }
+
+  header {
+    background-size: 300%;
+    background-repeat: repeat;
+  }
+
+  .ter {
+    padding-top: 23%;
+
+  }
+
+  .sir {
+
+    padding-left: 20%;
+    padding-top: 35%;
+    width: auto;
+  }
+
+  .tej {
+    padding-top: 25%;
+  }
+}

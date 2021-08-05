@@ -1,0 +1,67 @@
+{%block content%}
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shubham Webpage</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/click.css' %}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" >
+  <link  href="{% static 'css/bootstrap.css'%}">
+  <style type="text/css">
+  
+  </style>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <!--<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+</head>
+<body class="bg-secondary">
+  <header >
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed top">
+      <div class=" container-fluid main-nav">
+      <a class="navbar-brand" href="#">
+              <img src="{% static 'images/logo3.png'%}" class="img-responsive" alt="Responsive image" width="50" height="50"> 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="/">BACK</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+    
+  </div>
+  <div class="container text-black ter ">
+  <h4><span class="changecolor">Python</span> is an interpreted, high-level, general-purpose programming language.
+  Created by Guido van Rossum and first released in 1991, Python's design philosophy
+  emphasizes code readability with its notable use of significant whitespace.
+  Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.</h5><br>
+  <br>
+  <h4><span class="changecolor">RStudio</span> is an integrated development environment (IDE) for R, a programming language for statistical computing and graphics.
+  It is available in two formats: RStudio Desktop is a regular desktop application while RStudio Server runs on a remote server and allows accessing
+  RStudio using a web browser.</h5><br>
+  <br>
+  <h4><span class="changecolor">R</span> is free software designed for statistical computing.
+  There is already great documentation for the standard R packages on the Comprehensive R Archive Network (CRAN) and many resources in specialized books,
+  forums such as Stackoverflow and personal blogs, but all of these resources are scattered and therefore difficult to find and to compare. </h><br>
+  <h4>
+  <a class="btn  btn-outline-light btn-lg mr-1" href="https://www.python.org/" role="button" style="padding-top:10px; padding-bottom:10px;">PYTHON</a>
+  <a class="btn  btn-outline-light btn-lg mr-1" href="https://rstudio.com/" role="button" style="padding-top:10px; padding-bottom:10px;">R-STUDIO</a>
+  <a class="btn  btn-outline-light btn-lg mr-1" href="https://cran.r-project.org/" role="button" style="padding-top:10px; padding-bottom:10px;">R</a>
+
+  </nav>
+  
+  
+
+  </script>
+  </header>
+</body>
+</html>
+{%endblock%}
