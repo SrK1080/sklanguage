@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://github.com/SrK1080/sklanguage/blob/main/static/images/logo3.PNG);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://github.com/SrK1080/sklanguage/blob/main/static/images/logo3.PNG');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
